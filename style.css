@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+    margin-top: 3vh;
+}
+.title{
+    margin-left: 9vw;
+    font-size: 1.8rem;
+    color: rgb(226, 78, 103);
+    width: 8vw;
+    height: 4vh;
+    font-family: 'poppins', sans-serif;
+}
+.title a{
+    text-decoration: none;
+    color: rgb(226, 78, 103);
+}
+.home{
+    margin-left: 42vw;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    width: 5vw;
+    height: 4vh;
+    font-family: 'poppins', sans-serif;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+}
+.home:hover{
+    color: rgb(226, 78, 103);
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.about{
+    margin-left: 3vw;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    width: 5vw;
+    height: 4vh;
+    font-family: 'poppins', sans-serif;
+}
+.about:hover{
+    color: rgb(226, 78, 103);
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.skill{
+    margin-left: 3vw;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    width: 5vw;
+    height: 4vh;
+    font-family: 'poppins', sans-serif;
+
+}
+.skill:hover{
+    color: rgb(226, 78, 103);
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+.connect{
+    margin-left: 1.8vw;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    width: 7.4vw;
+    border: 2px solid  rgb(226, 78, 103);
+    height: 4vh;
+    font-family: 'poppins', sans-serif;
+    padding: 0.2vh 0.6vw 0.2vh 0.8vw;
+}
+.connect:hover{
+    color: rgb(226, 78, 103);
+    border-color: white;
+}
+.container1{
+    display: flex;
+}
+.first-container{
+    width: 50vw;
+    height: 70vh;
+    margin-top: 16vh;
+    margin-left: 9vw;
+    font-size: 1.2rem;
+}
+.heading{
+    font-size: 3.4rem;
+    color: white;
+}
+.sub-heading{
+    color: rgb(226, 78, 103);
+    font-size: 1.6rem;
+    margin-top: -5.1vh;
+}
+.second-container{
+    width: 50vw;
+    height: 70vh;
+    margin-top: 5.8vh;
+}
+.content{
+    color: white;
+}
+.picture{
+    height: 60vh;
+    width: 23vw;
+    left: 61%;
+    /* margin-left: 62%; */
+    position: absolute;
+    border-radius: 20px;
+    z-index: 2;
+}
+.animoblob{
+    position: absolute;
+    top: 50%;
+    left: 74%;
+    height: 23vw;
+    width: 23vw;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    animation: animate_blob 8s linear infinite;
+    z-index: 1;
+}
+@keyframes animate_blob{
+    0%,100%{
+        border-radius: 45% 55% 70% 35% / 70% 30% 90% 40%;
+    }
+    25%{
+        border-radius: 55% 45% 30% 35% / 50% 30% 60% 10%;
+    }
+    50%{
+        border-radius: 65% 35% 30% 65% / 40% 60% 30% 70%;
+    }
+    25%{
+        border-radius: 35% 65% 60% 45% / 70% 30% 40% 60%;
+    }
+}
+.btn1{
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.2rem;
+    background-color: rgb(226, 78, 103);
+    color: white;
+    border-color: rgb(226, 78, 103);
+    cursor: pointer;
+}
+.btn1:hover{
+    font-size: 1.3rem;
+}
+.btn2{
+    margin-left: 0.8vw;
+    height: 5vh;
+    width: 10vw;
+    font-size: 1.2rem;
+    background-color: rgb(226, 78, 103);
+    color: white;
+    border-color: rgb(226, 78, 103);
+    cursor: pointer;
+}
+.btn2:hover{
+    font-size: 1.3rem;
+}
+.about-me{
+    color: white;
+    font-size: 3rem;
+    margin-left: 9vw;
+    margin-top: -60vh;
+}
+.intro{
+    color: white;
+    margin-left: 9vw;
+    margin-top: -4vh;
+    font-size: 1.1rem;
+}
+.experience{
+    color:  rgb(226, 78, 103);
+    font-size: 2rem;
+    margin-left: 9vw;
+    margin-top: -0.6vh;
+} 
+.about-experience{
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 9vw;
+    margin-top: -4vh;  
+}
+.certificate{
+    color: rgb(226, 78, 103);
+    font-size: 2rem;
+    margin-left: 9vw;
+    margin-top: -0.4vh;
+}
+.points{
+    color: white;
+    margin-left: 9vw;
+    font-size: 1.1rem;
+    margin-top: -3.6vh;
+}
+.project{
+    color: rgb(226, 78, 103);
+    margin-left: 9vw;
+    font-size: 2rem;
+    margin-top: 0vh;
+}
+.about-project{
+    color: white;
+    margin-left: 9vw;
+    font-size: 1.1rem;
+    margin-top: -3.8vh;
+}
+.project_list{
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 9vw;
+    margin-top: -1.6vh;
+}
+.skills{
+    color: white;
+    margin-left: 9vw;
+    font-size: 3rem;
+    margin-top: -58vh;
+}
+.technical-skill{
+    color: rgb(226, 78, 103);
+    margin-left: 9vw;
+    font-size: 2rem;
+    margin-top: -4vh;
+}
+.skill-list{
+    color: white;
+    font-size: 1.4rem;
+    margin-left: 9vw;
+    margin-top: -3.6vh;
+}
+.contact{
+    color: white;
+    margin-left: 9vw;
+    font-size: 3rem;
+    margin-top: -58vh;
+}
+.about-contact{
+    color: white;
+    font-size: 2rem;
+    margin-left: 9vw;
+    margin-top: -7vh;
+}
+.contact2{
+    color: rgb(226, 78, 103);
+}
+.contact-list{
+    margin-top: 4vh;
+}
+.call{
+    color: white;
+    margin-left: 9vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    margin-top: 2vh;
+}
+.call a{
+    text-decoration: none;
+    color: white;
+}
+.call-img{
+    height: 3vh;
+}
